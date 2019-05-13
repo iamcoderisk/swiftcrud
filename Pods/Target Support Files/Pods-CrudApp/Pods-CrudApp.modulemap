@@ -1,0 +1,6 @@
+framework module Pods_CrudApp {
+  umbrella header "Pods-CrudApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

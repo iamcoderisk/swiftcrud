@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186EA88A2288655200643481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA8892288655200643481 /* AppDelegate.swift */; };
+		186EA88C2288655200643481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA88B2288655200643481 /* ViewController.swift */; };
+		186EA88F2288655200643481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186EA88D2288655200643481 /* Main.storyboard */; };
+		186EA8942288655200643481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186EA8932288655200643481 /* Assets.xcassets */; };
+		186EA89F2288679800643481 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186EA89E2288679800643481 /* GoogleService-Info.plist */; };
+		186EA8A322886A2B00643481 /* taxic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 186EA8A222886A2B00643481 /* taxic.jpeg */; };
+		186EA8AB2288C4A000643481 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA8AA2288C4A000643481 /* SecondViewController.swift */; };
+		186EA8AD2288CF2D00643481 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA8AC2288CF2D00643481 /* ViewControllerTableViewCell.swift */; };
+		186EA8AF2288D09300643481 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA8AE2288D09300643481 /* ArtistModel.swift */; };
+		4D36E46C62F0BAC4F98E2DAA /* Pods_CrudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DEFB1FCE06EA500385193D7 /* Pods_CrudApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186EA8862288655200643481 /* CrudApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrudApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186EA8892288655200643481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186EA88B2288655200643481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		186EA88E2288655200643481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186EA8932288655200643481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186EA8982288655200643481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186EA89E2288679800643481 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		186EA8A222886A2B00643481 /* taxic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taxic.jpeg; path = ../../../Downloads/taxic.jpeg; sourceTree = "<group>"; };
+		186EA8AA2288C4A000643481 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		186EA8AC2288CF2D00643481 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		186EA8AE2288D09300643481 /* ArtistModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		2DEFB1FCE06EA500385193D7 /* Pods_CrudApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrudApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7284E5CF2F2A55155B24ADBC /* Pods-CrudApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudApp.debug.xcconfig"; path = "Target Support Files/Pods-CrudApp/Pods-CrudApp.debug.xcconfig"; sourceTree = "<group>"; };
+		793DBAF5DD620670FA0B1808 /* Pods-CrudApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudApp.release.xcconfig"; path = "Target Support Files/Pods-CrudApp/Pods-CrudApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186EA8832288655200643481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D36E46C62F0BAC4F98E2DAA /* Pods_CrudApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186EA87D2288655200643481 = {
+			isa = PBXGroup;
+			children = (
+				186EA8882288655200643481 /* CrudApp */,
+				186EA8872288655200643481 /* Products */,
+				B932D1D78A73812E55FDA0A4 /* Pods */,
+				8F775EEDB13D5FDF117924F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186EA8872288655200643481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186EA8862288655200643481 /* CrudApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186EA8882288655200643481 /* CrudApp */ = {
+			isa = PBXGroup;
+			children = (
+				186EA89E2288679800643481 /* GoogleService-Info.plist */,
+				186EA8892288655200643481 /* AppDelegate.swift */,
+				186EA88B2288655200643481 /* ViewController.swift */,
+				186EA88D2288655200643481 /* Main.storyboard */,
+				186EA8932288655200643481 /* Assets.xcassets */,
+				186EA8A222886A2B00643481 /* taxic.jpeg */,
+				186EA8982288655200643481 /* Info.plist */,
+				186EA8AA2288C4A000643481 /* SecondViewController.swift */,
+				186EA8AC2288CF2D00643481 /* ViewControllerTableViewCell.swift */,
+				186EA8AE2288D09300643481 /* ArtistModel.swift */,
+			);
+			path = CrudApp;
+			sourceTree = "<group>";
+		};
+		8F775EEDB13D5FDF117924F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DEFB1FCE06EA500385193D7 /* Pods_CrudApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B932D1D78A73812E55FDA0A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7284E5CF2F2A55155B24ADBC /* Pods-CrudApp.debug.xcconfig */,
+				793DBAF5DD620670FA0B1808 /* Pods-CrudApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186EA8852288655200643481 /* CrudApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186EA89B2288655200643481 /* Build configuration list for PBXNativeTarget "CrudApp" */;
+			buildPhases = (
+				8A3317A0EB25C5D7D1E52EF3 /* [CP] Check Pods Manifest.lock */,
+				186EA8822288655200643481 /* Sources */,
+				186EA8832288655200643481 /* Frameworks */,
+				186EA8842288655200643481 /* Resources */,
+				3AA9A01CF085BBE3943E69BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrudApp;
+			productName = CrudApp;
+			productReference = 186EA8862288655200643481 /* CrudApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186EA87E2288655200643481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Prince Darlington";
+				TargetAttributes = {
+					186EA8852288655200643481 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 186EA8812288655200643481 /* Build configuration list for PBXProject "CrudApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186EA87D2288655200643481;
+			productRefGroup = 186EA8872288655200643481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186EA8852288655200643481 /* CrudApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186EA8842288655200643481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186EA89F2288679800643481 /* GoogleService-Info.plist in Resources */,
+				186EA8942288655200643481 /* Assets.xcassets in Resources */,
+				186EA8A322886A2B00643481 /* taxic.jpeg in Resources */,
+				186EA88F2288655200643481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AA9A01CF085BBE3943E69BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrudApp/Pods-CrudApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrudApp/Pods-CrudApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3317A0EB25C5D7D1E52EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrudApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186EA8822288655200643481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186EA8AB2288C4A000643481 /* SecondViewController.swift in Sources */,
+				186EA88C2288655200643481 /* ViewController.swift in Sources */,
+				186EA8AF2288D09300643481 /* ArtistModel.swift in Sources */,
+				186EA8AD2288CF2D00643481 /* ViewControllerTableViewCell.swift in Sources */,
+				186EA88A2288655200643481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		186EA88D2288655200643481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186EA88E2288655200643481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186EA8992288655200643481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186EA89A2288655200643481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186EA89C2288655200643481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7284E5CF2F2A55155B24ADBC /* Pods-CrudApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrudApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bittrill.CrudApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		186EA89D2288655200643481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793DBAF5DD620670FA0B1808 /* Pods-CrudApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrudApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bittrill.CrudApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186EA8812288655200643481 /* Build configuration list for PBXProject "CrudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186EA8992288655200643481 /* Debug */,
+				186EA89A2288655200643481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186EA89B2288655200643481 /* Build configuration list for PBXNativeTarget "CrudApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186EA89C2288655200643481 /* Debug */,
+				186EA89D2288655200643481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186EA87E2288655200643481 /* Project object */;
+}
